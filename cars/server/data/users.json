@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1750389612865",
+    "username": "Giorgi",
+    "email": "ediberidze@gmail.com",
+    "password": "$2a$10$hSRJ8hzjW3UIiuwAn.eQGe48xdXa6.Vk.Twy5nOMb1hGmJXl3w3sS",
+    "createdAt": "2025-06-20T03:20:12.866Z"
+  },
+  {
+    "id": "1750390880189",
+    "username": "Giorgi12",
+    "email": "ediberidze2@gmail.com",
+    "password": "$2a$10$.4wRPUclG6n8JLND/JG/IOQ/8Q1jFYD80dTvF.owvC0s3Km8MvJES",
+    "createdAt": "2025-06-20T03:41:20.189Z"
+  },
+  {
+    "id": "1750394520297",
+    "username": "Giorgi123",
+    "email": "giorgi@localdominator.co",
+    "password": "$2a$10$b8yVvmzR8Wxm8diA5O8aOuKXHqkyr0IOv/5ZHchdIctRalbvOGBfS",
+    "createdAt": "2025-06-20T04:42:00.297Z"
+  },
+  {
+    "id": "1750659564867",
+    "username": "Giorgi1234",
+    "email": "gediberidze@cu.edu.ge",
+    "password": "$2a$10$/0A05xawo6yLPmc/1JrjleRn8LBS7UENgJV9UQvnxi/0TXMWUBt9.",
+    "createdAt": "2025-06-23T06:19:24.867Z"
+  },
+  {
+    "id": "1750661863722",
+    "username": "Rati1234cd",
+    "email": "gediberidze12@cu.edu.ge",
+    "password": "$2a$10$dS.SzRsuPcrhY4IaHdVyU.iSgz5rYeflcQx7SF9.YToeAt0psf.RG",
+    "createdAt": "2025-06-23T06:57:43.722Z"
+  },
+  {
+    "id": "1753176565881",
+    "username": "Tiko",
+    "email": "tzertelashvili@gmail.com",
+    "password": "$2a$10$mNlM5aCEb3pc5FJfjSidteirB0m7KQAAbHH/SoHgRp1ZEaUh4x6QG",
+    "createdAt": "2025-07-22T09:29:25.882Z"
+  },
+  {
+    "id": "1753618072340",
+    "username": "tiko",
+    "email": "tiko@gmail.com",
+    "password": "$2a$10$gapvFozPHNkCF1CHxBUmbOF.Hi/lMjCyGbrXzfAZv4egLygpJGCT2",
+    "createdAt": "2025-07-27T12:07:52.340Z"
+  },
+  {
+    "id": "1753618895399",
+    "username": "mari",
+    "email": "mariami@gmail.com",
+    "password": "$2a$10$In5I3LRnfJlX2ejUZqKjY.3lRhYXE0Nct2BxyVxZ.mBT2sdL9wgb.",
+    "createdAt": "2025-07-27T12:21:35.399Z"
+  },
+  {
+    "id": "1753620502067",
+    "username": "maria",
+    "email": "maria@gmail.com",
+    "password": "$2a$10$aTK38qvgelfS3GNu92Rb0.pG2bEu3Xp6mtey89nrY4qur1IifBBNG",
+    "createdAt": "2025-07-27T12:48:22.067Z"
+  },
+  {
+    "id": "1753620551522",
+    "username": "tinatini",
+    "email": "tinatini@gmail.com",
+    "password": "$2a$10$1kEF0hEdhySa/qN7Lv9ufup5qumJeL7aT5CcCel3EFJA2AODwEYdu",
+    "createdAt": "2025-07-27T12:49:11.522Z"
+  }
+]

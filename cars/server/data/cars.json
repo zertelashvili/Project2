@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1750390711183",
+    "brand": "bmw",
+    "model": "m5",
+    "year": 2015,
+    "price": 1000,
+    "imageUrl": "https://mediapool.bmwgroup.com/cache/P9/202406/P90557399/P90557399-the-all-new-bmw-m5-06-2024-2250px.jpg",
+    "description": "1234",
+    "createdBy": "1750389612865",
+    "createdAt": "2025-06-20T03:38:31.183Z"
+  },
+  {
+    "id": "1750394706074",
+    "brand": "bmw",
+    "model": "m5",
+    "year": 2015,
+    "price": 2000,
+    "imageUrl": "https://mediapool.bmwgroup.com/cache/P9/202406/P90557399/P90557399-the-all-new-bmw-m5-06-2024-2250px.jpg",
+    "description": "test",
+    "createdBy": "1750394520297",
+    "createdAt": "2025-06-20T04:45:06.074Z"
+  },
+  {
+    "id": "1753177560018",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2023,
+    "price": 123000,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753176565881",
+    "createdAt": "2025-07-22T09:46:00.018Z"
+  },
+  {
+    "id": "1753177603992",
+    "brand": "rgn r",
+    "model": "rqegreg",
+    "year": 2020,
+    "price": 232455,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753176565881",
+    "createdAt": "2025-07-22T09:46:43.992Z"
+  },
+  {
+    "id": "1753267268918",
+    "brand": "ewft54",
+    "model": "rg4h",
+    "year": 2000,
+    "price": 6879,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753176565881",
+    "createdAt": "2025-07-23T10:41:08.918Z"
+  },
+  {
+    "id": "1753267302648",
+    "brand": "BMW",
+    "model": "m5",
+    "year": 2023,
+    "price": 34657,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753176565881",
+    "createdAt": "2025-07-23T10:41:42.649Z"
+  },
+  {
+    "id": "1753619098896",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 20000,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618895399",
+    "createdAt": "2025-07-27T12:24:58.896Z"
+  },
+  {
+    "id": "1753619252981",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 20000,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618895399",
+    "createdAt": "2025-07-27T12:27:32.981Z"
+  },
+  {
+    "id": "1753619353096",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 20000,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618895399",
+    "createdAt": "2025-07-27T12:29:13.096Z"
+  },
+  {
+    "id": "1753619400352",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 20000,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618895399",
+    "createdAt": "2025-07-27T12:30:00.352Z"
+  },
+  {
+    "id": "1753620802991",
+    "brand": "BMW",
+    "model": "m5",
+    "year": 2020,
+    "price": 10220,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618072340",
+    "createdAt": "2025-07-27T12:53:22.991Z",
+    "isSell": true
+  },
+  {
+    "id": "1753620865404",
+    "brand": "BMW",
+    "model": "m5",
+    "year": 2020,
+    "price": 10220,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753620502067",
+    "createdAt": "2025-07-27T12:54:25.404Z"
+  },
+  {
+    "id": "1753620890323",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 123343,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753620502067",
+    "createdAt": "2025-07-27T12:54:50.323Z"
+  },
+  {
+    "id": "1753622526393",
+    "brand": "Porche",
+    "model": "911",
+    "year": 2020,
+    "price": 123343,
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+    "description": "",
+    "createdBy": "1753618072340",
+    "createdAt": "2025-07-27T13:22:06.393Z",
+    "isSell": true
+  }
+]

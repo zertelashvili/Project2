@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Management System</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <!-- Initial Loading Screen -->
+    <div id="initialLoading" class="auth-container">
+        <div class="auth-card">
+            <div class="spinner"></div>
+            <h2 style="text-align: center; color: #333;">Loading...</h2>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header hidden">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-car"></i>
+                    CarManager
+                </div>
+                <nav class="nav">
+                    <button id="loginBtn" class="nav-btn">Login</button>
+                    <button id="registerBtn" class="nav-btn">Register</button>
+                    <button id="logoutBtn" class="nav-btn hidden">Logout</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Authentication Forms -->
+    <div id="authForms" class="auth-container hidden">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h1 class="auth-title">Welcome to CarManager</h1>
+                <p class="auth-subtitle">Manage your car collection with ease</p>
+            </div>
+            
+            <div class="auth-tabs">
+                <button id="switchToLogin" class="auth-tab active">Login</button>
+                <button id="switchToRegister" class="auth-tab">Register</button>
+            </div>
+            
+            <!-- Login Form -->
+            <form id="loginFormElement" class="auth-form active">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="password" required>
+                </div>
+                <button type="submit" class="auth-submit">
+                    <span class="btn-text">Login</span>
+                    <div class="auth-loading hidden">
+                        <div class="spinner"></div>
+                        <span>Logging in...</span>
+                    </div>
+                </button>
+            </form>
+            
+            <!-- Register Form -->
+            <form id="registerFormElement" class="auth-form">
+                <div class="form-group">
+                    <label for="registerUsername">Username</label>
+                    <input type="text" id="registerUsername" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" name="password" required>
+                </div>
+                <button type="submit" class="auth-submit">
+                    <span class="btn-text">Register</span>
+                    <div class="auth-loading hidden">
+                        <div class="spinner"></div>
+                        <span>Creating account...</span>
+                    </div>
+                </button>
+            </form>
+            
+            <div class="auth-switch">
+                <p class="auth-switch-text">Don't have an account?</p>
+                <button class="auth-switch-btn" id="switchToRegisterLink">Create one here</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="dashboard hidden">
+        <div class="container">
+            <div class="dashboard-header">
+                <h1 class="dashboard-title">Welcome back, <span id="userName">User</span>!</h1>
+                <p class="dashboard-subtitle">Manage your car collection</p>
+            </div>
+           
+            <div class="dashboard-actions">
+                <button id="addCarBtn" class="add-car-btn">
+                    <i class="fas fa-plus"></i>
+                    Add New Car
+                </button>
+            </div>
+            
+            <div id="carsGrid" class="cars-grid">
+                <!-- Cars will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Car Modal -->
+    <div id="addCarModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Add New Car</h2>
+                <button id="closeModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-body">
+                <form id="addCarForm" class="modal-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carBrand">Brand *</label>
+                            <input type="text" id="carBrand" name="brand" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carModel">Model *</label>
+                            <input type="text" id="carModel" name="model" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carYear">Year *</label>
+                            <input type="number" id="carYear" name="year" min="1900" max="2024" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carPrice">Price *</label>
+                            <input type="number" id="carPrice" name="price" min="0" step="0.01" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="carImageUrl">Image URL</label>
+                        <input type="url" id="carImageUrl" name="imageUrl" placeholder="https://example.com/car-image.jpg">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="carDescription">Description</label>
+                        <textarea id="carDescription" name="description" placeholder="Tell us about this car..."></textarea>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="modal-footer">
+                <button id="cancelAddCar" class="modal-btn modal-btn-secondary">Cancel</button>
+                <button type="submit" form="addCarForm" class="modal-btn modal-btn-primary">
+                    <span class="btn-text">Add Car</span>
+                    <div class="modal-loading hidden">
+                        <div class="spinner"></div>
+                        <span>Adding...</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading" class="modal hidden">
+        <div class="modal-content" style="background: transparent; box-shadow: none; padding: 2rem;">
+            <div class="spinner"></div>
+            <h3 style="text-align: center; color: white; margin-top: 1rem;">Loading...</h3>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- JavaScript Files -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html> 
