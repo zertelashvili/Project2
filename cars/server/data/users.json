@@ -68,5 +68,12 @@
     "email": "tinatini@gmail.com",
     "password": "$2a$10$1kEF0hEdhySa/qN7Lv9ufup5qumJeL7aT5CcCel3EFJA2AODwEYdu",
     "createdAt": "2025-07-27T12:49:11.522Z"
+  },
+  {
+    "id": "1753702685252",
+    "username": "mariami12",
+    "email": "mariami12@gmail.com",
+    "password": "$2a$10$TL3zlIxLXYjmwttLdqo98OvTmYDKfOR55Qjp9f8eU7dUviBAzYvuK",
+    "createdAt": "2025-07-28T11:38:05.252Z"
   }
 ]
